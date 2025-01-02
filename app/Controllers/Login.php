@@ -15,4 +15,13 @@ class Login extends BaseController
 
         return view('Login/v_login' , $data);
     }
+    public function register()
+    {
+        $data = [
+            'title' => 'Register',
+        ];
+
+        return view('Login/v_register', $data);
+    }
 }
+
