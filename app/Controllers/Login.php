@@ -21,17 +21,13 @@ class Login extends BaseController
 
         return view('Login/v_login' , $data);
     }
-<<<<<<< HEAD
 
-=======
->>>>>>> e90aa3fe1a49586eb0582cd29f8a07d3641e7909
     public function register()
     {
         $data = [
             'title' => 'Register',
         ];
 
-<<<<<<< HEAD
         return view('Login/v_register' , $data);
     }
 
@@ -74,9 +70,6 @@ class Login extends BaseController
             session()->destroy();
         }
         return redirect('login');
-=======
-        return view('Login/v_register', $data);
->>>>>>> e90aa3fe1a49586eb0582cd29f8a07d3641e7909
     }
 }
 

@@ -47,8 +47,8 @@
                     <h2>Sign In</h2>
                     <div class="input-box">
                         <span class="icon"><i class='bx bxs-envelope'></i></span>
-                        <input type="email" required>
-                        <label>Email</label>
+                        <input type="text" required>
+                        <label>Username</label>
                     </div>
                     <div class="input-box">
                         <span class="icon"><i class='bx bxs-lock-alt'></i></span>
@@ -72,7 +72,7 @@
 
                     <div class="input-box">
                         <span class="icon"><i class='bx bxs-user'></i></span>
-                        <input type="text" required>
+                        <input type="email" required>
                         <label>Username</label>
                     </div>
                     <div class="input-box">

@@ -181,7 +181,7 @@ body{
 }
 .login-section.active .form-box.login{
     transform: translateX(430px);
-    transition-delay: 0s;
+    transition-delay: .7s;
 }
 
 
@@ -206,8 +206,6 @@ body{
     outline: none;
     font-size: 16px;
     padding-right: 28px;
-
-
 }
 .input-box label{
     position: absolute;
@@ -218,16 +216,16 @@ body{
     font-weight: 600px;
     pointer-events: none;
     transition: .5s ease;
-
 }
 .input-box .icon{
-    position: absolute;
+    position: fixed;
     top: 13px;
     right: 0;
     font-size: 19px;
 }
 .input-box input:focus~ label,
-.input-box input:valid~ label{
+.input-box input:valid~ label
+{
     top: -5px;
 }
 .remember-password{
@@ -240,7 +238,6 @@ body{
 .remember-password label input{
     accent-color: #fff;
     margin-right: 3px;
-
 }
 .remember-password a{
     color: #fff;
